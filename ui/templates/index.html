@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Planning AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="main-card">
+    <h1>🌍 Tour Planning AI</h1>
+    <p class="subtitle">Your intelligent travel companion</p>
+
+    <!-- INPUT FORM -->
+    <form method="post" class="input-form">
+        <input type="number" name="budget" placeholder="💰 Budget (USD)" required>
+        <input type="number" name="days" placeholder="📅 Number of Days" required>
+        <input type="text" name="interests" placeholder="🎯 Interests (beach, adventure)" required>
+        <button type="submit">✨ Generate Tour</button>
+    </form>
+
+    {% if result %}
+        {% if result.error %}
+            <div class="error-box">{{ result.error }}</div>
+
+        {% elif result.summary %}
+            <!-- OUTPUT -->
+            <div class="tour-card">
+                <h2>✨ Your Personalized Tour</h2>
+
+                <div class="info-grid">
+                    <div>
+                        <span>📍 Destinations</span>
+                        <p>{{ result.summary.destinations | join(" → ") }}</p>
+                    </div>
+                    <div>
+                        <span>⏱ Duration</span>
+                        <p>{{ result.summary.days }} Days</p>
+                    </div>
+                    <div>
+                        <span>💵 Total Cost</span>
+                        <p class="price">${{ result.summary.total_cost }}</p>
+                    </div>
+                </div>
+
+                <h3>🗓️ Itinerary</h3>
+                <div class="timeline">
+                    {% for day, acts in result.itinerary.items() %}
+                        <div class="day-card">
+                            <h4>Day {{ day }}</h4>
+                            <ul>
+                                {% for a in acts %}
+                                    <li>
+                                        {{ a.name }}
+                                        <span>{{ a.duration_hours }}h · ${{ a.cost }}</span>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <!-- STAR RATING -->
+                <h3>⭐ Rate This Tour</h3>
+                <form method="post" class="rating-form">
+                    <div class="stars">
+                        {% for i in range(5,0,-1) %}
+                            <input type="radio" id="star{{i}}" name="rating" value="{{i}}" required>
+                            <label for="star{{i}}">★</label>
+                        {% endfor %}
+                    </div>
+                    <button class="rate-btn">Submit Rating</button>
+                </form>
+            </div>
+        {% endif %}
+    {% endif %}
+</div>
+
+</body>
+</html>

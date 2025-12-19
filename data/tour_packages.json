@@ -1,0 +1,4105 @@
+[
+  {
+    "id": 1,
+    "destinations": [
+      "Colombo",
+      "Arugam Bay"
+    ],
+    "days": 2,
+    "price": 311,
+    "interests": [
+      "surfing",
+      "city"
+    ],
+    "travel_cost": 121,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 18
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 1
+      },
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 20
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 18
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "destinations": [
+      "Galle",
+      "Arugam Bay"
+    ],
+    "days": 3,
+    "price": 370,
+    "interests": [
+      "surfing",
+      "culture"
+    ],
+    "travel_cost": 98,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Galle Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 5
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 4
+      },
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 3
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 5
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "destinations": [
+      "Yala",
+      "Bentota"
+    ],
+    "days": 2,
+    "price": 389,
+    "interests": [
+      "wildlife",
+      "water-sports"
+    ],
+    "travel_cost": 114,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Yala Main Attraction",
+        "interest": "wildlife",
+        "duration_hours": 3,
+        "cost": 9
+      },
+      {
+        "name": "Yala Local Experience",
+        "interest": "wildlife",
+        "duration_hours": 2,
+        "cost": 5
+      },
+      {
+        "name": "Bentota Main Attraction",
+        "interest": "water-sports",
+        "duration_hours": 3,
+        "cost": 23
+      },
+      {
+        "name": "Bentota Local Experience",
+        "interest": "water-sports",
+        "duration_hours": 2,
+        "cost": 11
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "destinations": [
+      "Ella",
+      "Colombo"
+    ],
+    "days": 5,
+    "price": 271,
+    "interests": [
+      "nature",
+      "city"
+    ],
+    "travel_cost": 78,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Ella Main Attraction",
+        "interest": "nature",
+        "duration_hours": 3,
+        "cost": 9
+      },
+      {
+        "name": "Ella Local Experience",
+        "interest": "nature",
+        "duration_hours": 2,
+        "cost": 13
+      },
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 22
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "destinations": [
+      "Colombo",
+      "Bentota"
+    ],
+    "days": 2,
+    "price": 422,
+    "interests": [
+      "city",
+      "water-sports"
+    ],
+    "travel_cost": 126,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 27
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 19
+      },
+      {
+        "name": "Bentota Main Attraction",
+        "interest": "water-sports",
+        "duration_hours": 3,
+        "cost": 4
+      },
+      {
+        "name": "Bentota Local Experience",
+        "interest": "water-sports",
+        "duration_hours": 2,
+        "cost": 8
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "destinations": [
+      "Trincomalee",
+      "Sigiriya"
+    ],
+    "days": 4,
+    "price": 566,
+    "interests": [
+      "beach",
+      "heritage"
+    ],
+    "travel_cost": 47,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Trincomalee Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 0
+      },
+      {
+        "name": "Trincomalee Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 8
+      },
+      {
+        "name": "Sigiriya Main Attraction",
+        "interest": "heritage",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Sigiriya Local Experience",
+        "interest": "heritage",
+        "duration_hours": 2,
+        "cost": 17
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "destinations": [
+      "Kalpitiya",
+      "Galle"
+    ],
+    "days": 4,
+    "price": 292,
+    "interests": [
+      "culture",
+      "adventure"
+    ],
+    "travel_cost": 108,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 17
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 11
+      },
+      {
+        "name": "Galle Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 17
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 11
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "destinations": [
+      "Nuwara Eliya",
+      "Pasikuda"
+    ],
+    "days": 5,
+    "price": 616,
+    "interests": [
+      "luxury",
+      "tea"
+    ],
+    "travel_cost": 135,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 18
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 7
+      },
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 21
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 7
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "destinations": [
+      "Horton Plains",
+      "Pasikuda"
+    ],
+    "days": 3,
+    "price": 460,
+    "interests": [
+      "luxury",
+      "hiking"
+    ],
+    "travel_cost": 136,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Horton Plains Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 4
+      },
+      {
+        "name": "Horton Plains Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 15
+      },
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "hiking",
+        "duration_hours": 3,
+        "cost": 8
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "hiking",
+        "duration_hours": 2,
+        "cost": 17
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "destinations": [
+      "Arugam Bay",
+      "Kalpitiya"
+    ],
+    "days": 3,
+    "price": 271,
+    "interests": [
+      "surfing",
+      "adventure"
+    ],
+    "travel_cost": 54,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 21
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 7
+      },
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 14
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 16
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "destinations": [
+      "Pasikuda",
+      "Mirissa"
+    ],
+    "days": 3,
+    "price": 348,
+    "interests": [
+      "luxury",
+      "beach"
+    ],
+    "travel_cost": 41,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 25
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 1
+      },
+      {
+        "name": "Mirissa Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 11
+      },
+      {
+        "name": "Mirissa Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 4
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "destinations": [
+      "Bentota",
+      "Pasikuda"
+    ],
+    "days": 3,
+    "price": 642,
+    "interests": [
+      "luxury",
+      "water-sports"
+    ],
+    "travel_cost": 101,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Bentota Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 13
+      },
+      {
+        "name": "Bentota Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 18
+      },
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "water-sports",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "water-sports",
+        "duration_hours": 2,
+        "cost": 11
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "destinations": [
+      "Horton Plains",
+      "Ella"
+    ],
+    "days": 5,
+    "price": 626,
+    "interests": [
+      "nature",
+      "hiking"
+    ],
+    "travel_cost": 48,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Horton Plains Main Attraction",
+        "interest": "nature",
+        "duration_hours": 3,
+        "cost": 10
+      },
+      {
+        "name": "Horton Plains Local Experience",
+        "interest": "nature",
+        "duration_hours": 2,
+        "cost": 2
+      },
+      {
+        "name": "Ella Main Attraction",
+        "interest": "hiking",
+        "duration_hours": 3,
+        "cost": 21
+      },
+      {
+        "name": "Ella Local Experience",
+        "interest": "hiking",
+        "duration_hours": 2,
+        "cost": 3
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "destinations": [
+      "Galle",
+      "Trincomalee"
+    ],
+    "days": 4,
+    "price": 305,
+    "interests": [
+      "beach",
+      "culture"
+    ],
+    "travel_cost": 150,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Galle Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 18
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 8
+      },
+      {
+        "name": "Trincomalee Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 21
+      },
+      {
+        "name": "Trincomalee Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 18
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "destinations": [
+      "Ella",
+      "Trincomalee"
+    ],
+    "days": 4,
+    "price": 505,
+    "interests": [
+      "nature",
+      "beach"
+    ],
+    "travel_cost": 118,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Ella Main Attraction",
+        "interest": "nature",
+        "duration_hours": 3,
+        "cost": 10
+      },
+      {
+        "name": "Ella Local Experience",
+        "interest": "nature",
+        "duration_hours": 2,
+        "cost": 10
+      },
+      {
+        "name": "Trincomalee Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 17
+      },
+      {
+        "name": "Trincomalee Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 6
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "destinations": [
+      "Sigiriya",
+      "Kalpitiya"
+    ],
+    "days": 2,
+    "price": 520,
+    "interests": [
+      "heritage",
+      "adventure"
+    ],
+    "travel_cost": 150,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Sigiriya Main Attraction",
+        "interest": "heritage",
+        "duration_hours": 3,
+        "cost": 18
+      },
+      {
+        "name": "Sigiriya Local Experience",
+        "interest": "heritage",
+        "duration_hours": 2,
+        "cost": 3
+      },
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 5
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "destinations": [
+      "Sigiriya",
+      "Yala"
+    ],
+    "days": 4,
+    "price": 456,
+    "interests": [
+      "heritage",
+      "wildlife"
+    ],
+    "travel_cost": 67,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Sigiriya Main Attraction",
+        "interest": "heritage",
+        "duration_hours": 3,
+        "cost": 9
+      },
+      {
+        "name": "Sigiriya Local Experience",
+        "interest": "heritage",
+        "duration_hours": 2,
+        "cost": 8
+      },
+      {
+        "name": "Yala Main Attraction",
+        "interest": "wildlife",
+        "duration_hours": 3,
+        "cost": 19
+      },
+      {
+        "name": "Yala Local Experience",
+        "interest": "wildlife",
+        "duration_hours": 2,
+        "cost": 11
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "destinations": [
+      "Sigiriya",
+      "Colombo"
+    ],
+    "days": 5,
+    "price": 641,
+    "interests": [
+      "city",
+      "heritage"
+    ],
+    "travel_cost": 72,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Sigiriya Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 19
+      },
+      {
+        "name": "Sigiriya Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 8
+      },
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "heritage",
+        "duration_hours": 3,
+        "cost": 28
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "heritage",
+        "duration_hours": 2,
+        "cost": 14
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "destinations": [
+      "Bentota",
+      "Kalpitiya"
+    ],
+    "days": 2,
+    "price": 321,
+    "interests": [
+      "water-sports",
+      "adventure"
+    ],
+    "travel_cost": 150,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Bentota Main Attraction",
+        "interest": "water-sports",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Bentota Local Experience",
+        "interest": "water-sports",
+        "duration_hours": 2,
+        "cost": 7
+      },
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 18
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 17
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "destinations": [
+      "Ella",
+      "Pasikuda"
+    ],
+    "days": 2,
+    "price": 393,
+    "interests": [
+      "luxury",
+      "nature"
+    ],
+    "travel_cost": 101,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Ella Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 22
+      },
+      {
+        "name": "Ella Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 17
+      },
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "nature",
+        "duration_hours": 3,
+        "cost": 27
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "nature",
+        "duration_hours": 2,
+        "cost": 11
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "destinations": [
+      "Galle",
+      "Kalpitiya"
+    ],
+    "days": 5,
+    "price": 635,
+    "interests": [
+      "culture",
+      "adventure"
+    ],
+    "travel_cost": 125,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Galle Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 13
+      },
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 22
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 15
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "destinations": [
+      "Colombo",
+      "Trincomalee"
+    ],
+    "days": 5,
+    "price": 650,
+    "interests": [
+      "beach",
+      "city"
+    ],
+    "travel_cost": 144,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 5
+      },
+      {
+        "name": "Trincomalee Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 23
+      },
+      {
+        "name": "Trincomalee Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 8
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "destinations": [
+      "Nuwara Eliya",
+      "Arugam Bay"
+    ],
+    "days": 2,
+    "price": 354,
+    "interests": [
+      "surfing",
+      "tea"
+    ],
+    "travel_cost": 61,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 25
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 1
+      },
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 25
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 20
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "destinations": [
+      "Colombo",
+      "Bentota"
+    ],
+    "days": 5,
+    "price": 370,
+    "interests": [
+      "city",
+      "water-sports"
+    ],
+    "travel_cost": 95,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 1
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 10
+      },
+      {
+        "name": "Bentota Main Attraction",
+        "interest": "water-sports",
+        "duration_hours": 3,
+        "cost": 13
+      },
+      {
+        "name": "Bentota Local Experience",
+        "interest": "water-sports",
+        "duration_hours": 2,
+        "cost": 8
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "destinations": [
+      "Pasikuda",
+      "Galle"
+    ],
+    "days": 2,
+    "price": 385,
+    "interests": [
+      "luxury",
+      "culture"
+    ],
+    "travel_cost": 135,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 6
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 18
+      },
+      {
+        "name": "Galle Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 17
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 14
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "destinations": [
+      "Jaffna",
+      "Pasikuda"
+    ],
+    "days": 4,
+    "price": 340,
+    "interests": [
+      "luxury",
+      "culture"
+    ],
+    "travel_cost": 73,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Jaffna Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 30
+      },
+      {
+        "name": "Jaffna Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 3
+      },
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 3
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 20
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "destinations": [
+      "Nuwara Eliya",
+      "Mirissa"
+    ],
+    "days": 2,
+    "price": 425,
+    "interests": [
+      "beach",
+      "tea"
+    ],
+    "travel_cost": 64,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 10
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 9
+      },
+      {
+        "name": "Mirissa Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 5
+      },
+      {
+        "name": "Mirissa Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 18
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "destinations": [
+      "Sinharaja",
+      "Bentota"
+    ],
+    "days": 4,
+    "price": 279,
+    "interests": [
+      "eco",
+      "water-sports"
+    ],
+    "travel_cost": 92,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Sinharaja Main Attraction",
+        "interest": "eco",
+        "duration_hours": 3,
+        "cost": 26
+      },
+      {
+        "name": "Sinharaja Local Experience",
+        "interest": "eco",
+        "duration_hours": 2,
+        "cost": 5
+      },
+      {
+        "name": "Bentota Main Attraction",
+        "interest": "water-sports",
+        "duration_hours": 3,
+        "cost": 14
+      },
+      {
+        "name": "Bentota Local Experience",
+        "interest": "water-sports",
+        "duration_hours": 2,
+        "cost": 9
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "destinations": [
+      "Sigiriya",
+      "Nuwara Eliya"
+    ],
+    "days": 3,
+    "price": 370,
+    "interests": [
+      "heritage",
+      "tea"
+    ],
+    "travel_cost": 134,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Sigiriya Main Attraction",
+        "interest": "heritage",
+        "duration_hours": 3,
+        "cost": 6
+      },
+      {
+        "name": "Sigiriya Local Experience",
+        "interest": "heritage",
+        "duration_hours": 2,
+        "cost": 12
+      },
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 9
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 13
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "destinations": [
+      "Bentota",
+      "Arugam Bay"
+    ],
+    "days": 2,
+    "price": 511,
+    "interests": [
+      "surfing",
+      "water-sports"
+    ],
+    "travel_cost": 82,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Bentota Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 5
+      },
+      {
+        "name": "Bentota Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 7
+      },
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "water-sports",
+        "duration_hours": 3,
+        "cost": 21
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "water-sports",
+        "duration_hours": 2,
+        "cost": 1
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "destinations": [
+      "Yala",
+      "Jaffna"
+    ],
+    "days": 4,
+    "price": 385,
+    "interests": [
+      "culture",
+      "wildlife"
+    ],
+    "travel_cost": 89,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Yala Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Yala Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 13
+      },
+      {
+        "name": "Jaffna Main Attraction",
+        "interest": "wildlife",
+        "duration_hours": 3,
+        "cost": 23
+      },
+      {
+        "name": "Jaffna Local Experience",
+        "interest": "wildlife",
+        "duration_hours": 2,
+        "cost": 10
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "destinations": [
+      "Colombo",
+      "Pasikuda"
+    ],
+    "days": 4,
+    "price": 264,
+    "interests": [
+      "luxury",
+      "city"
+    ],
+    "travel_cost": 114,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 18
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 12
+      },
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 23
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 18
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "destinations": [
+      "Trincomalee",
+      "Nuwara Eliya"
+    ],
+    "days": 2,
+    "price": 643,
+    "interests": [
+      "beach",
+      "tea"
+    ],
+    "travel_cost": 60,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Trincomalee Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 17
+      },
+      {
+        "name": "Trincomalee Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 4
+      },
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 8
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 3
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "destinations": [
+      "Arugam Bay",
+      "Horton Plains"
+    ],
+    "days": 3,
+    "price": 315,
+    "interests": [
+      "surfing",
+      "hiking"
+    ],
+    "travel_cost": 130,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 9
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 3
+      },
+      {
+        "name": "Horton Plains Main Attraction",
+        "interest": "hiking",
+        "duration_hours": 3,
+        "cost": 22
+      },
+      {
+        "name": "Horton Plains Local Experience",
+        "interest": "hiking",
+        "duration_hours": 2,
+        "cost": 18
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "destinations": [
+      "Pasikuda"
+    ],
+    "days": 3,
+    "price": 238,
+    "interests": [
+      "luxury"
+    ],
+    "travel_cost": 48,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 15
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 9
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "destinations": [
+      "Yala",
+      "Trincomalee"
+    ],
+    "days": 2,
+    "price": 632,
+    "interests": [
+      "beach",
+      "wildlife"
+    ],
+    "travel_cost": 43,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Yala Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 5
+      },
+      {
+        "name": "Yala Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 17
+      },
+      {
+        "name": "Trincomalee Main Attraction",
+        "interest": "wildlife",
+        "duration_hours": 3,
+        "cost": 30
+      },
+      {
+        "name": "Trincomalee Local Experience",
+        "interest": "wildlife",
+        "duration_hours": 2,
+        "cost": 20
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "destinations": [
+      "Sigiriya",
+      "Jaffna"
+    ],
+    "days": 5,
+    "price": 282,
+    "interests": [
+      "culture",
+      "heritage"
+    ],
+    "travel_cost": 150,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Sigiriya Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 14
+      },
+      {
+        "name": "Sigiriya Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 18
+      },
+      {
+        "name": "Jaffna Main Attraction",
+        "interest": "heritage",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Jaffna Local Experience",
+        "interest": "heritage",
+        "duration_hours": 2,
+        "cost": 8
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "destinations": [
+      "Horton Plains",
+      "Bentota"
+    ],
+    "days": 5,
+    "price": 597,
+    "interests": [
+      "water-sports",
+      "hiking"
+    ],
+    "travel_cost": 48,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Horton Plains Main Attraction",
+        "interest": "water-sports",
+        "duration_hours": 3,
+        "cost": 2
+      },
+      {
+        "name": "Horton Plains Local Experience",
+        "interest": "water-sports",
+        "duration_hours": 2,
+        "cost": 7
+      },
+      {
+        "name": "Bentota Main Attraction",
+        "interest": "hiking",
+        "duration_hours": 3,
+        "cost": 15
+      },
+      {
+        "name": "Bentota Local Experience",
+        "interest": "hiking",
+        "duration_hours": 2,
+        "cost": 16
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "destinations": [
+      "Trincomalee",
+      "Galle"
+    ],
+    "days": 4,
+    "price": 257,
+    "interests": [
+      "beach",
+      "culture"
+    ],
+    "travel_cost": 102,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Trincomalee Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 17
+      },
+      {
+        "name": "Trincomalee Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 3
+      },
+      {
+        "name": "Galle Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 5
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 13
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "destinations": [
+      "Mirissa",
+      "Kalpitiya"
+    ],
+    "days": 2,
+    "price": 307,
+    "interests": [
+      "beach",
+      "adventure"
+    ],
+    "travel_cost": 99,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Mirissa Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 7
+      },
+      {
+        "name": "Mirissa Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 0
+      },
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 24
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 17
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "destinations": [
+      "Jaffna",
+      "Yala"
+    ],
+    "days": 5,
+    "price": 607,
+    "interests": [
+      "culture",
+      "wildlife"
+    ],
+    "travel_cost": 40,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Jaffna Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 25
+      },
+      {
+        "name": "Jaffna Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 11
+      },
+      {
+        "name": "Yala Main Attraction",
+        "interest": "wildlife",
+        "duration_hours": 3,
+        "cost": 26
+      },
+      {
+        "name": "Yala Local Experience",
+        "interest": "wildlife",
+        "duration_hours": 2,
+        "cost": 13
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "destinations": [
+      "Pasikuda",
+      "Nuwara Eliya"
+    ],
+    "days": 4,
+    "price": 267,
+    "interests": [
+      "luxury",
+      "tea"
+    ],
+    "travel_cost": 44,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 20
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 15
+      },
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 2
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "destinations": [
+      "Kalpitiya",
+      "Sinharaja"
+    ],
+    "days": 5,
+    "price": 311,
+    "interests": [
+      "eco",
+      "adventure"
+    ],
+    "travel_cost": 47,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "eco",
+        "duration_hours": 3,
+        "cost": 26
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "eco",
+        "duration_hours": 2,
+        "cost": 3
+      },
+      {
+        "name": "Sinharaja Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 11
+      },
+      {
+        "name": "Sinharaja Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 2
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "destinations": [
+      "Bentota",
+      "Kalpitiya"
+    ],
+    "days": 5,
+    "price": 572,
+    "interests": [
+      "water-sports",
+      "adventure"
+    ],
+    "travel_cost": 82,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Bentota Main Attraction",
+        "interest": "water-sports",
+        "duration_hours": 3,
+        "cost": 5
+      },
+      {
+        "name": "Bentota Local Experience",
+        "interest": "water-sports",
+        "duration_hours": 2,
+        "cost": 18
+      },
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 3
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 19
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "destinations": [
+      "Trincomalee",
+      "Arugam Bay"
+    ],
+    "days": 4,
+    "price": 470,
+    "interests": [
+      "surfing",
+      "beach"
+    ],
+    "travel_cost": 122,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Trincomalee Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 24
+      },
+      {
+        "name": "Trincomalee Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 0
+      },
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 25
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "destinations": [
+      "Galle",
+      "Ella"
+    ],
+    "days": 4,
+    "price": 296,
+    "interests": [
+      "nature",
+      "culture"
+    ],
+    "travel_cost": 117,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Galle Main Attraction",
+        "interest": "nature",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "nature",
+        "duration_hours": 2,
+        "cost": 7
+      },
+      {
+        "name": "Ella Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 22
+      },
+      {
+        "name": "Ella Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 13
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "destinations": [
+      "Yala",
+      "Pasikuda"
+    ],
+    "days": 4,
+    "price": 574,
+    "interests": [
+      "luxury",
+      "wildlife"
+    ],
+    "travel_cost": 85,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Yala Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 12
+      },
+      {
+        "name": "Yala Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 14
+      },
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "wildlife",
+        "duration_hours": 3,
+        "cost": 16
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "wildlife",
+        "duration_hours": 2,
+        "cost": 3
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "destinations": [
+      "Pasikuda",
+      "Arugam Bay"
+    ],
+    "days": 3,
+    "price": 467,
+    "interests": [
+      "surfing",
+      "luxury"
+    ],
+    "travel_cost": 51,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 3
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 20
+      },
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 5
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 18
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "destinations": [
+      "Jaffna",
+      "Colombo"
+    ],
+    "days": 3,
+    "price": 265,
+    "interests": [
+      "city",
+      "culture"
+    ],
+    "travel_cost": 80,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Jaffna Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 20
+      },
+      {
+        "name": "Jaffna Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 4
+      },
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 21
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 6
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "destinations": [
+      "Colombo",
+      "Arugam Bay"
+    ],
+    "days": 5,
+    "price": 639,
+    "interests": [
+      "surfing",
+      "city"
+    ],
+    "travel_cost": 44,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 21
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 13
+      },
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 5
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 19
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "destinations": [
+      "Ella",
+      "Arugam Bay"
+    ],
+    "days": 2,
+    "price": 375,
+    "interests": [
+      "surfing",
+      "nature"
+    ],
+    "travel_cost": 144,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Ella Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 23
+      },
+      {
+        "name": "Ella Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 20
+      },
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "nature",
+        "duration_hours": 3,
+        "cost": 19
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "nature",
+        "duration_hours": 2,
+        "cost": 20
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "destinations": [
+      "Kandy",
+      "Horton Plains"
+    ],
+    "days": 5,
+    "price": 300,
+    "interests": [
+      "culture",
+      "hiking"
+    ],
+    "travel_cost": 66,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Kandy Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 0
+      },
+      {
+        "name": "Kandy Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 5
+      },
+      {
+        "name": "Horton Plains Main Attraction",
+        "interest": "hiking",
+        "duration_hours": 3,
+        "cost": 13
+      },
+      {
+        "name": "Horton Plains Local Experience",
+        "interest": "hiking",
+        "duration_hours": 2,
+        "cost": 14
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "destinations": [
+      "Nuwara Eliya"
+    ],
+    "days": 3,
+    "price": 625,
+    "interests": [
+      "tea"
+    ],
+    "travel_cost": 51,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 17
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 15
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "destinations": [
+      "Ella",
+      "Colombo"
+    ],
+    "days": 4,
+    "price": 462,
+    "interests": [
+      "nature",
+      "city"
+    ],
+    "travel_cost": 89,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Ella Main Attraction",
+        "interest": "nature",
+        "duration_hours": 3,
+        "cost": 3
+      },
+      {
+        "name": "Ella Local Experience",
+        "interest": "nature",
+        "duration_hours": 2,
+        "cost": 12
+      },
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 18
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "destinations": [
+      "Arugam Bay",
+      "Colombo"
+    ],
+    "days": 3,
+    "price": 514,
+    "interests": [
+      "surfing",
+      "city"
+    ],
+    "travel_cost": 117,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 6
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 8
+      },
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 14
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 9
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "destinations": [
+      "Galle",
+      "Pasikuda"
+    ],
+    "days": 4,
+    "price": 589,
+    "interests": [
+      "luxury",
+      "culture"
+    ],
+    "travel_cost": 131,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Galle Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 27
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 2
+      },
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 23
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 14
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "destinations": [
+      "Trincomalee",
+      "Jaffna"
+    ],
+    "days": 2,
+    "price": 398,
+    "interests": [
+      "beach",
+      "culture"
+    ],
+    "travel_cost": 143,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Trincomalee Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 23
+      },
+      {
+        "name": "Trincomalee Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 4
+      },
+      {
+        "name": "Jaffna Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 28
+      },
+      {
+        "name": "Jaffna Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 18
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "destinations": [
+      "Galle",
+      "Sigiriya"
+    ],
+    "days": 2,
+    "price": 244,
+    "interests": [
+      "heritage",
+      "culture"
+    ],
+    "travel_cost": 53,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Galle Main Attraction",
+        "interest": "heritage",
+        "duration_hours": 3,
+        "cost": 16
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "heritage",
+        "duration_hours": 2,
+        "cost": 12
+      },
+      {
+        "name": "Sigiriya Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 4
+      },
+      {
+        "name": "Sigiriya Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 14
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "destinations": [
+      "Colombo",
+      "Sinharaja"
+    ],
+    "days": 2,
+    "price": 297,
+    "interests": [
+      "eco",
+      "city"
+    ],
+    "travel_cost": 140,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "eco",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "eco",
+        "duration_hours": 2,
+        "cost": 5
+      },
+      {
+        "name": "Sinharaja Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 18
+      },
+      {
+        "name": "Sinharaja Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 16
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "destinations": [
+      "Nuwara Eliya",
+      "Kalpitiya"
+    ],
+    "days": 3,
+    "price": 635,
+    "interests": [
+      "adventure",
+      "tea"
+    ],
+    "travel_cost": 123,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 14
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 0
+      },
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 15
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 9
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "destinations": [
+      "Trincomalee",
+      "Sinharaja"
+    ],
+    "days": 5,
+    "price": 364,
+    "interests": [
+      "eco",
+      "beach"
+    ],
+    "travel_cost": 44,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Trincomalee Main Attraction",
+        "interest": "eco",
+        "duration_hours": 3,
+        "cost": 7
+      },
+      {
+        "name": "Trincomalee Local Experience",
+        "interest": "eco",
+        "duration_hours": 2,
+        "cost": 9
+      },
+      {
+        "name": "Sinharaja Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 2
+      },
+      {
+        "name": "Sinharaja Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 10
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "destinations": [
+      "Pasikuda",
+      "Mirissa"
+    ],
+    "days": 2,
+    "price": 631,
+    "interests": [
+      "luxury",
+      "beach"
+    ],
+    "travel_cost": 72,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 24
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 8
+      },
+      {
+        "name": "Mirissa Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 12
+      },
+      {
+        "name": "Mirissa Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 1
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "destinations": [
+      "Trincomalee",
+      "Sigiriya"
+    ],
+    "days": 5,
+    "price": 538,
+    "interests": [
+      "beach",
+      "heritage"
+    ],
+    "travel_cost": 126,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Trincomalee Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 30
+      },
+      {
+        "name": "Trincomalee Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 20
+      },
+      {
+        "name": "Sigiriya Main Attraction",
+        "interest": "heritage",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Sigiriya Local Experience",
+        "interest": "heritage",
+        "duration_hours": 2,
+        "cost": 11
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "destinations": [
+      "Bentota",
+      "Nuwara Eliya"
+    ],
+    "days": 2,
+    "price": 232,
+    "interests": [
+      "water-sports",
+      "tea"
+    ],
+    "travel_cost": 48,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Bentota Main Attraction",
+        "interest": "water-sports",
+        "duration_hours": 3,
+        "cost": 26
+      },
+      {
+        "name": "Bentota Local Experience",
+        "interest": "water-sports",
+        "duration_hours": 2,
+        "cost": 14
+      },
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 0
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 4
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "destinations": [
+      "Pasikuda",
+      "Arugam Bay"
+    ],
+    "days": 4,
+    "price": 302,
+    "interests": [
+      "surfing",
+      "luxury"
+    ],
+    "travel_cost": 76,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 15
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 20
+      },
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 2
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 3
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "destinations": [
+      "Kalpitiya",
+      "Colombo"
+    ],
+    "days": 5,
+    "price": 382,
+    "interests": [
+      "city",
+      "adventure"
+    ],
+    "travel_cost": 53,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 3
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 17
+      },
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 25
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 2
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "destinations": [
+      "Ella",
+      "Sinharaja"
+    ],
+    "days": 4,
+    "price": 317,
+    "interests": [
+      "eco",
+      "nature"
+    ],
+    "travel_cost": 76,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Ella Main Attraction",
+        "interest": "eco",
+        "duration_hours": 3,
+        "cost": 22
+      },
+      {
+        "name": "Ella Local Experience",
+        "interest": "eco",
+        "duration_hours": 2,
+        "cost": 19
+      },
+      {
+        "name": "Sinharaja Main Attraction",
+        "interest": "nature",
+        "duration_hours": 3,
+        "cost": 30
+      },
+      {
+        "name": "Sinharaja Local Experience",
+        "interest": "nature",
+        "duration_hours": 2,
+        "cost": 4
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "destinations": [
+      "Mirissa",
+      "Galle"
+    ],
+    "days": 2,
+    "price": 328,
+    "interests": [
+      "beach",
+      "culture"
+    ],
+    "travel_cost": 74,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Mirissa Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 22
+      },
+      {
+        "name": "Mirissa Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 0
+      },
+      {
+        "name": "Galle Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 21
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 17
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "destinations": [
+      "Nuwara Eliya",
+      "Arugam Bay"
+    ],
+    "days": 2,
+    "price": 252,
+    "interests": [
+      "surfing",
+      "tea"
+    ],
+    "travel_cost": 142,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 15
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 5
+      },
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 22
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 5
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "destinations": [
+      "Kalpitiya",
+      "Jaffna"
+    ],
+    "days": 4,
+    "price": 284,
+    "interests": [
+      "culture",
+      "adventure"
+    ],
+    "travel_cost": 60,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 8
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 15
+      },
+      {
+        "name": "Jaffna Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 14
+      },
+      {
+        "name": "Jaffna Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 17
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "destinations": [
+      "Yala"
+    ],
+    "days": 5,
+    "price": 285,
+    "interests": [
+      "wildlife"
+    ],
+    "travel_cost": 144,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Yala Main Attraction",
+        "interest": "wildlife",
+        "duration_hours": 3,
+        "cost": 24
+      },
+      {
+        "name": "Yala Local Experience",
+        "interest": "wildlife",
+        "duration_hours": 2,
+        "cost": 13
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "destinations": [
+      "Horton Plains",
+      "Nuwara Eliya"
+    ],
+    "days": 5,
+    "price": 383,
+    "interests": [
+      "tea",
+      "hiking"
+    ],
+    "travel_cost": 139,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Horton Plains Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 18
+      },
+      {
+        "name": "Horton Plains Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 14
+      },
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "hiking",
+        "duration_hours": 3,
+        "cost": 26
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "hiking",
+        "duration_hours": 2,
+        "cost": 13
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "destinations": [
+      "Mirissa",
+      "Yala"
+    ],
+    "days": 2,
+    "price": 236,
+    "interests": [
+      "beach",
+      "wildlife"
+    ],
+    "travel_cost": 73,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Mirissa Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 8
+      },
+      {
+        "name": "Mirissa Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 8
+      },
+      {
+        "name": "Yala Main Attraction",
+        "interest": "wildlife",
+        "duration_hours": 3,
+        "cost": 17
+      },
+      {
+        "name": "Yala Local Experience",
+        "interest": "wildlife",
+        "duration_hours": 2,
+        "cost": 10
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "destinations": [
+      "Kandy",
+      "Nuwara Eliya"
+    ],
+    "days": 5,
+    "price": 243,
+    "interests": [
+      "culture",
+      "tea"
+    ],
+    "travel_cost": 57,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Kandy Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 28
+      },
+      {
+        "name": "Kandy Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 10
+      },
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 5
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 3
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "destinations": [
+      "Kalpitiya",
+      "Pasikuda"
+    ],
+    "days": 5,
+    "price": 485,
+    "interests": [
+      "luxury",
+      "adventure"
+    ],
+    "travel_cost": 142,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 14
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 3
+      },
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 4
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 15
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "destinations": [
+      "Galle",
+      "Sinharaja"
+    ],
+    "days": 5,
+    "price": 459,
+    "interests": [
+      "eco",
+      "culture"
+    ],
+    "travel_cost": 80,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Galle Main Attraction",
+        "interest": "eco",
+        "duration_hours": 3,
+        "cost": 10
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "eco",
+        "duration_hours": 2,
+        "cost": 20
+      },
+      {
+        "name": "Sinharaja Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 12
+      },
+      {
+        "name": "Sinharaja Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 0
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "destinations": [
+      "Kandy",
+      "Pasikuda"
+    ],
+    "days": 5,
+    "price": 247,
+    "interests": [
+      "luxury",
+      "culture"
+    ],
+    "travel_cost": 109,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Kandy Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 7
+      },
+      {
+        "name": "Kandy Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 5
+      },
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 21
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 5
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "destinations": [
+      "Bentota",
+      "Nuwara Eliya"
+    ],
+    "days": 3,
+    "price": 609,
+    "interests": [
+      "water-sports",
+      "tea"
+    ],
+    "travel_cost": 42,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Bentota Main Attraction",
+        "interest": "water-sports",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Bentota Local Experience",
+        "interest": "water-sports",
+        "duration_hours": 2,
+        "cost": 14
+      },
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 11
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 8
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "destinations": [
+      "Kalpitiya",
+      "Pasikuda"
+    ],
+    "days": 4,
+    "price": 438,
+    "interests": [
+      "luxury",
+      "adventure"
+    ],
+    "travel_cost": 55,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 23
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 1
+      },
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 19
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 19
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "destinations": [
+      "Jaffna",
+      "Galle"
+    ],
+    "days": 5,
+    "price": 413,
+    "interests": [
+      "culture"
+    ],
+    "travel_cost": 142,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Jaffna Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 25
+      },
+      {
+        "name": "Jaffna Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 2
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "destinations": [
+      "Pasikuda"
+    ],
+    "days": 3,
+    "price": 273,
+    "interests": [
+      "luxury"
+    ],
+    "travel_cost": 100,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Pasikuda Main Attraction",
+        "interest": "luxury",
+        "duration_hours": 3,
+        "cost": 22
+      },
+      {
+        "name": "Pasikuda Local Experience",
+        "interest": "luxury",
+        "duration_hours": 2,
+        "cost": 15
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "destinations": [
+      "Kalpitiya",
+      "Kandy"
+    ],
+    "days": 3,
+    "price": 362,
+    "interests": [
+      "culture",
+      "adventure"
+    ],
+    "travel_cost": 119,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 22
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 15
+      },
+      {
+        "name": "Kandy Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 12
+      },
+      {
+        "name": "Kandy Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 14
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "destinations": [
+      "Kalpitiya",
+      "Yala"
+    ],
+    "days": 2,
+    "price": 591,
+    "interests": [
+      "wildlife",
+      "adventure"
+    ],
+    "travel_cost": 95,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "wildlife",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "wildlife",
+        "duration_hours": 2,
+        "cost": 11
+      },
+      {
+        "name": "Yala Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 19
+      },
+      {
+        "name": "Yala Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 1
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "destinations": [
+      "Mirissa",
+      "Galle"
+    ],
+    "days": 2,
+    "price": 592,
+    "interests": [
+      "beach",
+      "culture"
+    ],
+    "travel_cost": 119,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Mirissa Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 28
+      },
+      {
+        "name": "Mirissa Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 8
+      },
+      {
+        "name": "Galle Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 11
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 8
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "destinations": [
+      "Sigiriya",
+      "Mirissa"
+    ],
+    "days": 4,
+    "price": 557,
+    "interests": [
+      "beach",
+      "heritage"
+    ],
+    "travel_cost": 42,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Sigiriya Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 5
+      },
+      {
+        "name": "Sigiriya Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 7
+      },
+      {
+        "name": "Mirissa Main Attraction",
+        "interest": "heritage",
+        "duration_hours": 3,
+        "cost": 9
+      },
+      {
+        "name": "Mirissa Local Experience",
+        "interest": "heritage",
+        "duration_hours": 2,
+        "cost": 5
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "destinations": [
+      "Colombo",
+      "Ella"
+    ],
+    "days": 3,
+    "price": 244,
+    "interests": [
+      "nature",
+      "city"
+    ],
+    "travel_cost": 82,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "nature",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "nature",
+        "duration_hours": 2,
+        "cost": 1
+      },
+      {
+        "name": "Ella Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 16
+      },
+      {
+        "name": "Ella Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 8
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "destinations": [
+      "Nuwara Eliya"
+    ],
+    "days": 4,
+    "price": 512,
+    "interests": [
+      "tea"
+    ],
+    "travel_cost": 71,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Nuwara Eliya Main Attraction",
+        "interest": "tea",
+        "duration_hours": 3,
+        "cost": 17
+      },
+      {
+        "name": "Nuwara Eliya Local Experience",
+        "interest": "tea",
+        "duration_hours": 2,
+        "cost": 15
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "destinations": [
+      "Galle",
+      "Mirissa"
+    ],
+    "days": 2,
+    "price": 573,
+    "interests": [
+      "beach",
+      "culture"
+    ],
+    "travel_cost": 101,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Galle Main Attraction",
+        "interest": "beach",
+        "duration_hours": 3,
+        "cost": 20
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "beach",
+        "duration_hours": 2,
+        "cost": 7
+      },
+      {
+        "name": "Mirissa Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 5
+      },
+      {
+        "name": "Mirissa Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 17
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "destinations": [
+      "Horton Plains",
+      "Ella"
+    ],
+    "days": 5,
+    "price": 341,
+    "interests": [
+      "nature",
+      "hiking"
+    ],
+    "travel_cost": 137,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Horton Plains Main Attraction",
+        "interest": "nature",
+        "duration_hours": 3,
+        "cost": 7
+      },
+      {
+        "name": "Horton Plains Local Experience",
+        "interest": "nature",
+        "duration_hours": 2,
+        "cost": 7
+      },
+      {
+        "name": "Ella Main Attraction",
+        "interest": "hiking",
+        "duration_hours": 3,
+        "cost": 29
+      },
+      {
+        "name": "Ella Local Experience",
+        "interest": "hiking",
+        "duration_hours": 2,
+        "cost": 12
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "destinations": [
+      "Horton Plains",
+      "Kandy"
+    ],
+    "days": 5,
+    "price": 448,
+    "interests": [
+      "culture",
+      "hiking"
+    ],
+    "travel_cost": 146,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Horton Plains Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 11
+      },
+      {
+        "name": "Horton Plains Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 0
+      },
+      {
+        "name": "Kandy Main Attraction",
+        "interest": "hiking",
+        "duration_hours": 3,
+        "cost": 7
+      },
+      {
+        "name": "Kandy Local Experience",
+        "interest": "hiking",
+        "duration_hours": 2,
+        "cost": 10
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "destinations": [
+      "Horton Plains",
+      "Kandy"
+    ],
+    "days": 4,
+    "price": 401,
+    "interests": [
+      "culture",
+      "hiking"
+    ],
+    "travel_cost": 98,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Horton Plains Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 20
+      },
+      {
+        "name": "Horton Plains Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 13
+      },
+      {
+        "name": "Kandy Main Attraction",
+        "interest": "hiking",
+        "duration_hours": 3,
+        "cost": 25
+      },
+      {
+        "name": "Kandy Local Experience",
+        "interest": "hiking",
+        "duration_hours": 2,
+        "cost": 5
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "destinations": [
+      "Sigiriya",
+      "Colombo"
+    ],
+    "days": 2,
+    "price": 352,
+    "interests": [
+      "city",
+      "heritage"
+    ],
+    "travel_cost": 111,
+    "hotel_level": "mid",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Sigiriya Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 23
+      },
+      {
+        "name": "Sigiriya Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 7
+      },
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "heritage",
+        "duration_hours": 3,
+        "cost": 22
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "heritage",
+        "duration_hours": 2,
+        "cost": 5
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "destinations": [
+      "Sigiriya",
+      "Horton Plains"
+    ],
+    "days": 5,
+    "price": 237,
+    "interests": [
+      "heritage",
+      "hiking"
+    ],
+    "travel_cost": 40,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Sigiriya Main Attraction",
+        "interest": "heritage",
+        "duration_hours": 3,
+        "cost": 25
+      },
+      {
+        "name": "Sigiriya Local Experience",
+        "interest": "heritage",
+        "duration_hours": 2,
+        "cost": 5
+      },
+      {
+        "name": "Horton Plains Main Attraction",
+        "interest": "hiking",
+        "duration_hours": 3,
+        "cost": 7
+      },
+      {
+        "name": "Horton Plains Local Experience",
+        "interest": "hiking",
+        "duration_hours": 2,
+        "cost": 8
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "destinations": [
+      "Yala",
+      "Ella"
+    ],
+    "days": 2,
+    "price": 383,
+    "interests": [
+      "nature",
+      "wildlife"
+    ],
+    "travel_cost": 144,
+    "hotel_level": "luxury",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Yala Main Attraction",
+        "interest": "nature",
+        "duration_hours": 3,
+        "cost": 28
+      },
+      {
+        "name": "Yala Local Experience",
+        "interest": "nature",
+        "duration_hours": 2,
+        "cost": 2
+      },
+      {
+        "name": "Ella Main Attraction",
+        "interest": "wildlife",
+        "duration_hours": 3,
+        "cost": 6
+      },
+      {
+        "name": "Ella Local Experience",
+        "interest": "wildlife",
+        "duration_hours": 2,
+        "cost": 3
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "destinations": [
+      "Bentota"
+    ],
+    "days": 3,
+    "price": 494,
+    "interests": [
+      "water-sports"
+    ],
+    "travel_cost": 66,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Bentota Main Attraction",
+        "interest": "water-sports",
+        "duration_hours": 3,
+        "cost": 10
+      },
+      {
+        "name": "Bentota Local Experience",
+        "interest": "water-sports",
+        "duration_hours": 2,
+        "cost": 17
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "destinations": [
+      "Colombo",
+      "Galle"
+    ],
+    "days": 2,
+    "price": 284,
+    "interests": [
+      "city",
+      "culture"
+    ],
+    "travel_cost": 138,
+    "hotel_level": "budget",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Colombo Main Attraction",
+        "interest": "city",
+        "duration_hours": 3,
+        "cost": 12
+      },
+      {
+        "name": "Colombo Local Experience",
+        "interest": "city",
+        "duration_hours": 2,
+        "cost": 19
+      },
+      {
+        "name": "Galle Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 18
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 15
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "destinations": [
+      "Arugam Bay",
+      "Galle"
+    ],
+    "days": 3,
+    "price": 513,
+    "interests": [
+      "surfing",
+      "culture"
+    ],
+    "travel_cost": 106,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Arugam Bay Main Attraction",
+        "interest": "surfing",
+        "duration_hours": 3,
+        "cost": 14
+      },
+      {
+        "name": "Arugam Bay Local Experience",
+        "interest": "surfing",
+        "duration_hours": 2,
+        "cost": 3
+      },
+      {
+        "name": "Galle Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 30
+      },
+      {
+        "name": "Galle Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 1
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "destinations": [
+      "Horton Plains",
+      "Jaffna"
+    ],
+    "days": 3,
+    "price": 627,
+    "interests": [
+      "culture",
+      "hiking"
+    ],
+    "travel_cost": 149,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Horton Plains Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 28
+      },
+      {
+        "name": "Horton Plains Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 8
+      },
+      {
+        "name": "Jaffna Main Attraction",
+        "interest": "hiking",
+        "duration_hours": 3,
+        "cost": 26
+      },
+      {
+        "name": "Jaffna Local Experience",
+        "interest": "hiking",
+        "duration_hours": 2,
+        "cost": 12
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "destinations": [
+      "Kalpitiya",
+      "Kandy"
+    ],
+    "days": 5,
+    "price": 505,
+    "interests": [
+      "culture",
+      "adventure"
+    ],
+    "travel_cost": 47,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Kalpitiya Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 16
+      },
+      {
+        "name": "Kalpitiya Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 7
+      },
+      {
+        "name": "Kandy Main Attraction",
+        "interest": "adventure",
+        "duration_hours": 3,
+        "cost": 16
+      },
+      {
+        "name": "Kandy Local Experience",
+        "interest": "adventure",
+        "duration_hours": 2,
+        "cost": 9
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "destinations": [
+      "Yala",
+      "Jaffna"
+    ],
+    "days": 4,
+    "price": 224,
+    "interests": [
+      "culture",
+      "wildlife"
+    ],
+    "travel_cost": 80,
+    "hotel_level": "eco",
+    "region": "mixed",
+    "activities": [
+      {
+        "name": "Yala Main Attraction",
+        "interest": "culture",
+        "duration_hours": 3,
+        "cost": 5
+      },
+      {
+        "name": "Yala Local Experience",
+        "interest": "culture",
+        "duration_hours": 2,
+        "cost": 18
+      },
+      {
+        "name": "Jaffna Main Attraction",
+        "interest": "wildlife",
+        "duration_hours": 3,
+        "cost": 2
+      },
+      {
+        "name": "Jaffna Local Experience",
+        "interest": "wildlife",
+        "duration_hours": 2,
+        "cost": 2
+      }
+    ]
+  }
+]
