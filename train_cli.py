@@ -1,11 +1,13 @@
 from agent.agent import TourPlanningAgent
 
+# Initialize agent with environment
 agent = TourPlanningAgent("data/tour_packages.json")
 
 print("=== TOUR PLANNING AI – TRAINING MODE (CMD) ===")
 
 while True:
     try:
+        # 🔹 User input
         budget = int(input("\nEnter budget (USD): "))
         days = int(input("Enter number of days: "))
         interests = input("Enter interests (comma separated): ").split(",")
@@ -13,15 +15,17 @@ while True:
         goals = {
             "budget": budget,
             "days": days,
-            "interests": [i.strip() for i in interests]
+            "interests": [i.strip() for i in interests if i.strip()]
         }
 
-        packages, activities, itinerary = agent.run(goals)
+        # 🔹 Run agent (FIX: 4 return values)
+        packages, activities, itinerary, daily_costs = agent.run(goals)
 
         if packages is None:
             print("\n❌ No feasible plan found.")
             continue
 
+        # 🔹 Display summary
         print("\n🌍 GENERATED TOUR")
         destinations = set()
         total_cost = 0
@@ -34,19 +38,29 @@ while True:
             total_cost += a["cost"]
 
         print("Destinations:", " → ".join(destinations))
-        print("Days:", sum(p["days"] for p in packages))
-        print("Total Cost:", total_cost)
+        print("Days:", goals["days"])
+        print("Total Cost (USD):", total_cost)
 
+        # 🔹 Display itinerary
         print("\n🗓️ Itinerary")
-        for day, acts in itinerary.items():
+        for day in sorted(itinerary):
             print(f" Day {day}:")
-            for a in acts:
-                print(f"  - {a['name']} ({a['interest']})")
+            for a in itinerary[day]:
+                print(f"  - {a['name']} ({a['interest']}, {a['duration_hours']}h)")
+            print(f"   Day Cost: ${daily_costs[day]}")
 
-        rating = int(input("\nRate this tour (1–5): "))
+        # ⭐ Rating (validated)
+        while True:
+            rating = int(input("\nRate this tour (1–5): "))
+            if 1 <= rating <= 5:
+                break
+            print("⚠️ Please enter a rating between 1 and 5.")
+
+        # 🔁 Learning step
         agent.learn(packages, activities, goals, rating)
 
-        print("✅ Feedback recorded. Model updated.")
+        print("✅ Feedback recorded.")
+        print("🧠 Model updated using user feedback.")
 
         cont = input("\nTrain again? (y/n): ").lower()
         if cont != "y":

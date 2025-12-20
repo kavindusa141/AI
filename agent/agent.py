@@ -6,23 +6,53 @@ from environment.environment import Environment
 from models.nn_model import load_model, train_model
 import csv
 
+
 class TourPlanningAgent:
-    def __init__(self,env):
-        self.env=Environment(env)
-        self.model=load_model()
+    def __init__(self, env_path):
+        self.env = Environment(env_path)
+        self.model = load_model()
 
-    def run(self,g):
-        best=None; best_score=-1
-        for plan in generate_candidate_plans(self.env.get_packages(), g):
-            acts=select_activities(plan,g)
-            score=self.model.predict([extract_features(plan,acts,g)])[0] if self.model else rule_based_utility(plan,acts,g)
-            if score>best_score:
-                best_score=score; best=(plan,acts)
-        if best is None:
-            return None,None,None
-        return best[0], best[1], build_itinerary(best[1])
+    def run(self, goals):
+        best_plan = None
+        best_activities = None
+        best_score = float("-inf")
 
-    def learn(self,plan,acts,g,rating):
-        with open('data/training_data.csv','a',newline='') as f:
-            csv.writer(f).writerow(extract_features(plan,acts,g)+[rating])
-        self.model=train_model()
+        packages = self.env.get_packages()
+
+        # 🔍 SEARCH over candidate plans
+        for plan in generate_candidate_plans(packages, goals):
+
+            activities = select_activities(plan, goals)
+            features = extract_features(plan, activities, goals)
+
+            # 🧠 HYBRID DECISION
+            if self.model:
+                score = self.model.predict([features])[0]
+            else:
+                score = rule_based_utility(plan, activities, goals)
+
+            if score > best_score:
+                best_score = score
+                best_plan = plan
+                best_activities = activities
+
+        if best_plan is None:
+            return None, None, None, None
+
+        # ✅ FIX: enforce full-day itinerary
+        itinerary, daily_costs = build_itinerary(
+            best_activities,
+            goals["days"]
+        )
+
+        return best_plan, best_activities, itinerary, daily_costs
+
+    def learn(self, plan, activities, goals, rating):
+        features = extract_features(plan, activities, goals)
+
+        with open("data/training_data.csv", "a", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(features + [rating])
+
+        # 🔁 Retrain model after feedback
+        self.model = train_model()

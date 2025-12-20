@@ -1,8 +1,42 @@
-def build_itinerary(acts):
-    itinerary={}; day=1; hours=8; itinerary[day]=[]
-    for a in acts:
-        if a['duration_hours']<=hours:
-            itinerary[day].append(a); hours-=a['duration_hours']
+def build_itinerary(activities, requested_days):
+    itinerary = {}
+    daily_costs = {}
+
+    MAX_HOURS_PER_DAY = 6
+    day = 1
+    remaining_hours = MAX_HOURS_PER_DAY
+
+    itinerary[day] = []
+    daily_costs[day] = 0
+
+    for a in activities:
+        duration = a["duration_hours"]
+
+        # Skip impossible activities
+        if duration > MAX_HOURS_PER_DAY:
+            continue
+
+        if duration <= remaining_hours:
+            itinerary[day].append(a)
+            daily_costs[day] += a["cost"]
+            remaining_hours -= duration
         else:
-            day+=1; hours=8-a['duration_hours']; itinerary[day]=[a]
-    return itinerary
+            day += 1
+            if day > requested_days:
+                break
+            itinerary[day] = [a]
+            daily_costs[day] = a["cost"]
+            remaining_hours = MAX_HOURS_PER_DAY - duration
+
+    # 🔹 Fill missing days
+    while day < requested_days:
+        day += 1
+        itinerary[day] = [{
+            "name": "Free Day / Relax",
+            "interest": "flex",
+            "duration_hours": 3,
+            "cost": 0
+        }]
+        daily_costs[day] = 0
+
+    return itinerary, daily_costs
