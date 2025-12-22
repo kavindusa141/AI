@@ -20,7 +20,11 @@ def load_model():
         if os.path.exists(MODEL_PATH):
             return joblib.load(MODEL_PATH)
     except Exception:
-        return None
+        # Corrupted model → delete it
+        try:
+            os.remove(MODEL_PATH)
+        except Exception:
+            pass
     return None
 
 

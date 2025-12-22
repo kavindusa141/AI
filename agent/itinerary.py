@@ -16,19 +16,23 @@ def build_itinerary(activities, requested_days):
         if duration > MAX_HOURS_PER_DAY:
             continue
 
+        # If activity fits in current day
         if duration <= remaining_hours:
             itinerary[day].append(a)
             daily_costs[day] += a["cost"]
             remaining_hours -= duration
         else:
+            # Move to next day
             day += 1
             if day > requested_days:
                 break
+
+            remaining_hours = MAX_HOURS_PER_DAY
             itinerary[day] = [a]
             daily_costs[day] = a["cost"]
-            remaining_hours = MAX_HOURS_PER_DAY - duration
+            remaining_hours -= duration
 
-    # 🔹 Fill missing days
+    # 🔹 Fill missing days with rest
     while day < requested_days:
         day += 1
         itinerary[day] = [{

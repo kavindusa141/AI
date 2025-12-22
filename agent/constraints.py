@@ -1,29 +1,45 @@
 def check_constraints(packages, goals):
-    total_price = sum(p["price"] for p in packages)
-    total_days = sum(p["days"] for p in packages)
+    """
+    Hard feasibility checks.
+    If this fails → plan is NOT considered at all.
+    """
 
-    # Budget constraint
-    if total_price > goals["budget"]:
+    # 🔹 Aggregate values
+    total_price = sum(p.get("price", 0) for p in packages)
+    total_days = sum(p.get("days", 0) for p in packages)
+
+    # ======================================================
+    # 1️⃣ Budget Elasticity (±10%)
+    # ======================================================
+    budget = goals["budget"]
+    min_budget = budget * 0.9
+    max_budget = budget * 1.1
+
+    if total_price < min_budget or total_price > max_budget:
         return False
 
-    # 🔥 Enforce exact day match
-    if total_days != goals["days"]:
+    # ======================================================
+    # 2️⃣ Day Flexibility (±1 day)
+    # ======================================================
+    requested_days = goals["days"]
+    if abs(total_days - requested_days) > 1:
         return False
 
-    # Interest feasibility (at least one match)
+    # ======================================================
+    # 3️⃣ Interest Feasibility (at least one overlap)
+    # ======================================================
     plan_interests = set()
     for p in packages:
         plan_interests.update(p.get("interests", []))
 
-    if not plan_interests.intersection(goals["interests"]):
+    if not plan_interests.intersection(set(goals["interests"])):
         return False
 
-    # Avoid duplicate destinations
-    destinations = []
-    for p in packages:
-        destinations.extend(p.get("destinations", []))
-
-    if len(destinations) != len(set(destinations)):
+    # ======================================================
+    # 4️⃣ Avoid duplicate packages
+    # ======================================================
+    package_ids = [p.get("id") for p in packages]
+    if len(package_ids) != len(set(package_ids)):
         return False
 
     return True
