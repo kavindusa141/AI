@@ -7,7 +7,6 @@ from environment.environment import Environment
 from models.nn_model import load_model, train_model
 import csv
 
-
 class TourPlanningAgent:
     def __init__(self, env_path):
         self.env = Environment(env_path)
@@ -16,7 +15,6 @@ class TourPlanningAgent:
     def run(self, goals):
         best_plan = None
         best_activities = None
-        best_itinerary = None
         best_score = float("-inf")
         best_explanation = {}
 
@@ -29,8 +27,10 @@ class TourPlanningAgent:
             activities = select_activities(plan, goals)
 
             # --- COST SAFETY CHECK ---
-            total_cost = sum(p["price"] for p in plan)
-            total_cost += sum(a["cost"] for a in activities)
+            # Base package cost + Activity costs
+            base_cost = sum(p["price"] for p in plan)
+            activity_cost = sum(a.get("cost", 0) for a in activities)
+            total_cost = base_cost + activity_cost
 
             if total_cost > goals["budget"]:
                 continue
@@ -46,6 +46,7 @@ class TourPlanningAgent:
             if self.model:
                 try:
                     ml_score = float(self.model.predict([features])[0])
+                    # Hybrid Score: 70% Rules, 30% AI
                     score = 0.7 * rule_score + 0.3 * ml_score
                 except Exception:
                     score = rule_score
@@ -64,16 +65,19 @@ class TourPlanningAgent:
                     "reasons": explain(plan, activities, goals)
                 }
 
+        # If no valid plan found
         if best_plan is None:
             return None, None, None, None
 
         # --- Build itinerary ---
-        itinerary, daily_costs = build_itinerary(
-            best_activities,
-            goals["days"]
-        )
+        # ⚠️ UPDATED: Now passing a dictionary as expected by the new itinerary.py
+        itinerary_data = build_itinerary({
+            "activities": best_activities,
+            "days": goals["days"],
+            "total_cost": best_explanation["total_cost"]
+        })
 
-        return best_plan, best_activities, itinerary, best_explanation
+        return best_plan, best_activities, itinerary_data, best_explanation
 
     def learn(self, plan, activities, goals, rating):
         features = extract_features(plan, activities, goals)

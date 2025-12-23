@@ -3,82 +3,312 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tour Planning AI</title>
-    <link rel="stylesheet" href="/static/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Wanderlust AI | Intelligent Tour Planner</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-hover: #4338CA;
+            --accent: #10B981;
+            --bg-gradient: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%);
+            --text-dark: #1F2937;
+            --card-shadow: 0 10px 25px -5px rgba(0,0,0,.1);
+        }
+
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-dark);
+        }
+
+        .container { max-width: 1100px; margin: auto; }
+        .app-card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: var(--card-shadow);
+        }
+
+        h1 { text-align: center; color: var(--primary); margin: 0; font-weight: 800; }
+        .subtitle { text-align: center; color: #6B7280; margin: 5px 0 30px; }
+
+        .grid-2 { display: grid; gap: 20px; grid-template-columns: 1fr; }
+        @media (min-width:768px){ .grid-2 { grid-template-columns: 1fr 1fr; } }
+
+        .input-group { margin-bottom: 20px; }
+        label { font-weight: 600; display: block; margin-bottom: 8px; }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 14px;
+            border-radius: 12px;
+            border: 2px solid #E5E7EB;
+            font-family: inherit;
+            box-sizing: border-box;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .btn-primary {
+            width: 100%;
+            padding: 16px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 12px;
+            border: none;
+            background: var(--primary);
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover { background: var(--primary-hover); }
+
+        .dashboard {
+            margin-top: 50px;
+            padding-top: 40px;
+            border-top: 2px dashed #E5E7EB;
+        }
+
+        .stats-row {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: #F9FAFB;
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #E5E7EB;
+            text-align: center;
+        }
+
+        .stat-value { font-size: 1.5rem; font-weight: 800; color: var(--primary); }
+        .stat-label { font-size: .8rem; text-transform: uppercase; color: #6B7280; }
+
+        .ai-insight {
+            background: #ECFDF5;
+            border: 1px solid #10B981;
+            padding: 20px;
+            border-radius: 12px;
+            color: #065F46;
+            margin-bottom: 30px;
+        }
+
+        .split-view {
+            display: grid;
+            gap: 30px;
+            grid-template-columns: 1fr;
+        }
+
+        @media(min-width:768px){ .split-view { grid-template-columns: 1fr 1fr; } }
+
+        #map {
+            height: 500px;
+            border-radius: 16px;
+            border: 2px solid #E5E7EB;
+        }
+
+        .timeline-day {
+            border-left: 2px solid #E5E7EB;
+            padding-left: 25px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .day-header {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .day-header::before {
+            content: '';
+            position: absolute;
+            left: -9px;
+            top: 4px;
+            width: 12px;
+            height: 12px;
+            background: var(--primary);
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }
+
+        .activity-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            border-radius: 10px;
+            border: 1px solid #F3F4F6;
+            margin-bottom: 10px;
+            background: #fff;
+        }
+
+        .tag-pill {
+            font-size: .7rem;
+            background: #EEF2FF;
+            color: var(--primary);
+            border-radius: 999px;
+            padding: 2px 8px;
+            margin-left: 5px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .cost-badge { font-weight: 700; color: var(--accent); }
+    </style>
 </head>
+
 <body>
+<div class="container">
+<div class="app-card">
 
-<div class="bg"></div>
+<h1>Wanderlust AI</h1>
+<p class="subtitle">Your Intelligent, Personalized Travel Architect</p>
 
-<div class="main-card">
-    <h1>🌍 Tour Planning AI</h1>
-    <p class="subtitle">Your intelligent travel companion</p>
+<form method="post">
+    <div class="grid-2">
+        <div class="input-group">
+            <label for="budget">💰 Budget (USD)</label>
+            <input id="budget" type="number" name="budget" required placeholder="Enter budget in USD" value="{{ request.form.get('budget') | default('') }}">
+        </div>
+        <div class="input-group">
+            <label for="days">📅 Duration (Days)</label>
+            <input id="days" type="number" name="days" required placeholder="Enter number of days" value="{{ request.form.get('days') | default('') }}">
+        </div>
+    </div>
 
-    <!-- INPUT FORM -->
-    <form method="post" class="input-form">
-        <input type="number" name="budget" placeholder="💰 Budget (USD)" required>
-        <input type="number" name="days" placeholder="📅 Number of Days" required>
-        <input type="text" name="interests" placeholder="🎯 Interests (beach, adventure)" required>
-        <button type="submit">✨ Generate Tour</button>
-    </form>
+    <div class="input-group">
+        <label for="travel_style">👤 Travel Style</label>
+        <select id="travel_style" name="travel_style">
+            <option value="default">✨ Balanced</option>
+            <option value="solo">🎒 Solo</option>
+            <option value="family">👨‍👩‍👧 Family</option>
+            <option value="luxury">💎 Luxury</option>
+        </select>
+    </div>
 
-    {% if result %}
-        {% if result.error %}
-            <div class="error-box">{{ result.error }}</div>
+    <div class="input-group">
+        <label for="interests">💭 Dream Trip Description</label>
+        <textarea id="interests" name="interests" rows="3" required placeholder="Describe your dream trip...">{{ request.form.get('interests') | default('') }}</textarea>
+    </div>
 
-        {% elif result.summary %}
-            <!-- OUTPUT -->
-            <div class="tour-card">
-                <h2>✨ Your Personalized Tour</h2>
+    <button class="btn-primary">✨ Generate Plan</button>
+</form>
 
-                <div class="info-grid">
-                    <div>
-                        <span>📍 Destinations</span>
-                        <p>{{ result.summary.destinations | join(" → ") }}</p>
-                    </div>
-                    <div>
-                        <span>⏱ Duration</span>
-                        <p>{{ result.summary.days }} Days</p>
-                    </div>
-                    <div>
-                        <span>💵 Total Cost</span>
-                        <p class="price">${{ result.summary.total_cost }}</p>
-                    </div>
-                </div>
+{% if plan %}
+<div class="dashboard">
 
-                <h3>🗓️ Itinerary</h3>
-                <div class="timeline">
-                    {% for day, acts in result.itinerary.items() %}
-                        <div class="day-card">
-                            <h4>Day {{ day }}</h4>
-                            <ul>
-                                {% for a in acts %}
-                                    <li>
-                                        {{ a.name }}
-                                        <span>{{ a.duration_hours }}h · ${{ a.cost }}</span>
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    {% endfor %}
-                </div>
-
-                <!-- STAR RATING -->
-                <h3>⭐ Rate This Tour</h3>
-                <form method="post" class="rating-form">
-                    <div class="stars">
-                        {% for i in range(5,0,-1) %}
-                            <input type="radio" id="star{{i}}" name="rating" value="{{i}}" required>
-                            <label for="star{{i}}">★</label>
-                        {% endfor %}
-                    </div>
-                    <button class="rate-btn">Submit Rating</button>
-                </form>
-            </div>
-        {% endif %}
-    {% endif %}
+<div class="stats-row">
+    <div class="stat-card">
+        <div class="stat-label">Total Cost</div>
+        <div class="stat-value">${{ plan.explanation.total_cost }}</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-label">Duration</div>
+        <div class="stat-value">{{ plan.days }} Days</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-label">AI Score</div>
+        <div class="stat-value">{{ (plan.explanation.ml_score or plan.explanation.rule_score or 0)|round(2) }}</div>
+    </div>
 </div>
+
+<div class="ai-insight">
+    <strong>🤖 AI Reasoning:</strong>
+    <ul>
+        {% for r in plan.explanation.reasons %}
+        <li>{{ r }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="split-view">
+    <div>
+        <h3>🗺️ Tour Map</h3>
+        <div id="map"></div>
+    </div>
+
+    <div>
+        <h3>🗓️ Daily Itinerary</h3>
+        {% for day in plan.daily_activities %}
+        <div class="timeline-day">
+            <div class="day-header">Day {{ loop.index }}</div>
+            {% for act in day %}
+            <div class="activity-card">
+                <strong>{{ act.name }}</strong>
+                <span class="cost-badge">${{ act.cost }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+</div>
+{% endif %}
+
+</div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const markers = JSON.parse('{{ map_markers | default([]) | tojson | safe }}');
+
+    if (!markers.length) return;
+
+    const map = L.map('map').setView([7.8731, 80.7718], 7);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    const latlngs = [];
+
+    markers.forEach(m => {
+        if (m.lat && m.lon) {
+            L.marker([m.lat, m.lon])
+                .addTo(map)
+                .bindPopup(`<b>${m.name}</b>`);
+            latlngs.push([m.lat, m.lon]);
+        }
+    });
+
+    if (latlngs.length > 1) {
+        L.polyline(latlngs, {
+            color: '#4F46E5',
+            weight: 4,
+            dashArray: '10,10'
+        }).addTo(map);
+
+        map.fitBounds(latlngs);
+    }
+});
+</script>
+{% if plan %}
+    <div class="input-group" style="margin-top:20px;">
+        <form action="/download-plan" method="get">
+            <button type="submit" class="btn-primary">
+                📄 Download Tour Plan (PDF)
+            </button>
+        </form>
+    </div>
+{% endif %}
+
 
 </body>
 </html>

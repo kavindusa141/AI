@@ -1,19 +1,22 @@
-# environment/weather.py
-
 import random
 
 WEATHER_BY_REGION = {
-    "south": "dry",
-    "north": "hot",
-    "central": "cool",
-    "east": "dry",
+    "south": "dry",     # Galle, Mirissa
+    "north": "hot",     # Jaffna
+    "central": "cool",  # Kandy
+    "hill": "cool",     # <--- ADDED THIS (Nuwara Eliya, Ella)
+    "east": "dry",      # Trincomalee
+    "west": "moderate", # Colombo
     "mixed": "moderate"
 }
-
 
 def get_weather(region):
     """
     Simple weather abstraction.
-    Can be replaced with real API later.
+    Returns: 'dry', 'cool', 'hot', 'moderate'
     """
-    return WEATHER_BY_REGION.get(region, random.choice(["dry", "cool", "moderate"]))
+    # Normalize input (handle "Hill", "HILL", "hill ")
+    clean_region = str(region).strip().lower()
+    
+    # Get specific weather or fallback to random
+    return WEATHER_BY_REGION.get(clean_region, random.choice(["dry", "cool", "moderate"]))
